@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551EA2BD1EC97EF0009F953F /* Question.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 551EA2BB1EC97EF0009F953F /* Question.xcdatamodeld */; };
+		551EA2C01EC98261009F953F /* Query+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EA2BE1EC98261009F953F /* Query+CoreDataClass.swift */; };
+		551EA2C11EC98261009F953F /* Query+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EA2BF1EC98261009F953F /* Query+CoreDataProperties.swift */; };
+		551EA2C81EC98403009F953F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551EA2C71EC98403009F953F /* CoreData.framework */; };
+		551EA2CA1EC99E14009F953F /* CoreDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EA2C91EC99E14009F953F /* CoreDataObject.swift */; };
 		558298DC1E9C6F2C0061B2F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558298DB1E9C6F2C0061B2F0 /* AppDelegate.swift */; };
 		558298DE1E9C6F2C0061B2F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558298DD1E9C6F2C0061B2F0 /* ViewController.swift */; };
 		558298E11E9C6F2C0061B2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558298DF1E9C6F2C0061B2F0 /* Main.storyboard */; };
-		558298E41E9C6F2C0061B2F0 /* UMQuery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 558298E21E9C6F2C0061B2F0 /* UMQuery.xcdatamodeld */; };
 		558298E61E9C6F2C0061B2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558298E51E9C6F2C0061B2F0 /* Assets.xcassets */; };
 		558298E91E9C6F2C0061B2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558298E71E9C6F2C0061B2F0 /* LaunchScreen.storyboard */; };
 		558298F41E9C6F2C0061B2F0 /* UMQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558298F31E9C6F2C0061B2F0 /* UMQueryTests.swift */; };
 		558298FF1E9C6F2C0061B2F0 /* UMQueryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558298FE1E9C6F2C0061B2F0 /* UMQueryUITests.swift */; };
+		5582990D1E9C72830061B2F0 /* CommonPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582990C1E9C72830061B2F0 /* CommonPageView.swift */; };
+		558299171E9C79000061B2F0 /* MultipleChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558299161E9C79000061B2F0 /* MultipleChoiceViewController.swift */; };
+		558299191E9C79140061B2F0 /* TrueOrFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558299181E9C79140061B2F0 /* TrueOrFalseViewController.swift */; };
+		5582991B1E9C79240061B2F0 /* FillInBlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582991A1E9C79240061B2F0 /* FillInBlankViewController.swift */; };
+		5582991D1E9C7FDF0061B2F0 /* MultipleChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582991C1E9C7FDF0061B2F0 /* MultipleChoiceView.swift */; };
+		5582991F1E9C7FF10061B2F0 /* TrueOrFalseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5582991E1E9C7FF10061B2F0 /* TrueOrFalseView.swift */; };
+		558299211E9C80030061B2F0 /* FillInBlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558299201E9C80030061B2F0 /* FillInBlankView.swift */; };
+		558299271E9CA7200061B2F0 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 558299261E9CA7200061B2F0 /* UIColor+HexColor.m */; };
+		559CADCA1EA4BAF100015A2B /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559CADC91EA4BAF100015A2B /* DemoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		551EA2BC1EC97EF0009F953F /* Question.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Question.xcdatamodel; sourceTree = "<group>"; };
+		551EA2BE1EC98261009F953F /* Query+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Query+CoreDataClass.swift"; sourceTree = "<group>"; };
+		551EA2BF1EC98261009F953F /* Query+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Query+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		551EA2C71EC98403009F953F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		551EA2C91EC99E14009F953F /* CoreDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObject.swift; sourceTree = "<group>"; };
 		558298D81E9C6F2C0061B2F0 /* UMQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558298DB1E9C6F2C0061B2F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558298DD1E9C6F2C0061B2F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		558298E01E9C6F2C0061B2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		558298E31E9C6F2C0061B2F0 /* UMQuery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UMQuery.xcdatamodel; sourceTree = "<group>"; };
 		558298E51E9C6F2C0061B2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558298E81E9C6F2C0061B2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558298EA1E9C6F2C0061B2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,17 @@
 		558298FA1E9C6F2C0061B2F0 /* UMQueryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMQueryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558298FE1E9C6F2C0061B2F0 /* UMQueryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMQueryUITests.swift; sourceTree = "<group>"; };
 		558299001E9C6F2C0061B2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5582990C1E9C72830061B2F0 /* CommonPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonPageView.swift; sourceTree = "<group>"; };
+		558299161E9C79000061B2F0 /* MultipleChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceViewController.swift; sourceTree = "<group>"; };
+		558299181E9C79140061B2F0 /* TrueOrFalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueOrFalseViewController.swift; sourceTree = "<group>"; };
+		5582991A1E9C79240061B2F0 /* FillInBlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillInBlankViewController.swift; sourceTree = "<group>"; };
+		5582991C1E9C7FDF0061B2F0 /* MultipleChoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceView.swift; sourceTree = "<group>"; };
+		5582991E1E9C7FF10061B2F0 /* TrueOrFalseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrueOrFalseView.swift; sourceTree = "<group>"; };
+		558299201E9C80030061B2F0 /* FillInBlankView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillInBlankView.swift; sourceTree = "<group>"; };
+		558299241E9CA7200061B2F0 /* UMQuery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMQuery-Bridging-Header.h"; sourceTree = "<group>"; };
+		558299251E9CA7200061B2F0 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		558299261E9CA7200061B2F0 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		559CADC91EA4BAF100015A2B /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551EA2C81EC98403009F953F /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +105,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551EA2C61EC98403009F953F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551EA2C71EC98403009F953F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		558298CF1E9C6F2C0061B2F0 = {
 			isa = PBXGroup;
 			children = (
+				551EA2BE1EC98261009F953F /* Query+CoreDataClass.swift */,
+				551EA2BF1EC98261009F953F /* Query+CoreDataProperties.swift */,
+				551EA2C91EC99E14009F953F /* CoreDataObject.swift */,
 				558298DA1E9C6F2C0061B2F0 /* UMQuery */,
 				558298F21E9C6F2C0061B2F0 /* UMQueryTests */,
 				558298FD1E9C6F2C0061B2F0 /* UMQueryUITests */,
 				558298D91E9C6F2C0061B2F0 /* Products */,
+				551EA2C61EC98403009F953F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +140,18 @@
 		558298DA1E9C6F2C0061B2F0 /* UMQuery */ = {
 			isa = PBXGroup;
 			children = (
+				558299111E9C76140061B2F0 /* MultipleChoice */,
+				558299101E9C75EF0061B2F0 /* TrueOrFalse */,
+				5582990F1E9C75CE0061B2F0 /* FillInBlank */,
 				558298DB1E9C6F2C0061B2F0 /* AppDelegate.swift */,
 				558298DD1E9C6F2C0061B2F0 /* ViewController.swift */,
-				558298DF1E9C6F2C0061B2F0 /* Main.storyboard */,
+				559CADC91EA4BAF100015A2B /* DemoTableViewController.swift */,
+				558299291E9CAFBE0061B2F0 /* Category */,
+				5582990E1E9C75AA0061B2F0 /* storyBoard */,
+				5582990C1E9C72830061B2F0 /* CommonPageView.swift */,
 				558298E51E9C6F2C0061B2F0 /* Assets.xcassets */,
 				558298E71E9C6F2C0061B2F0 /* LaunchScreen.storyboard */,
 				558298EA1E9C6F2C0061B2F0 /* Info.plist */,
-				558298E21E9C6F2C0061B2F0 /* UMQuery.xcdatamodeld */,
 			);
 			path = UMQuery;
 			sourceTree = "<group>";
@@ -115,6 +161,7 @@
 			children = (
 				558298F31E9C6F2C0061B2F0 /* UMQueryTests.swift */,
 				558298F51E9C6F2C0061B2F0 /* Info.plist */,
+				551EA2BB1EC97EF0009F953F /* Question.xcdatamodeld */,
 			);
 			path = UMQueryTests;
 			sourceTree = "<group>";
@@ -126,6 +173,75 @@
 				558299001E9C6F2C0061B2F0 /* Info.plist */,
 			);
 			path = UMQueryUITests;
+			sourceTree = "<group>";
+		};
+		5582990E1E9C75AA0061B2F0 /* storyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				558298DF1E9C6F2C0061B2F0 /* Main.storyboard */,
+			);
+			name = storyBoard;
+			sourceTree = "<group>";
+		};
+		5582990F1E9C75CE0061B2F0 /* FillInBlank */ = {
+			isa = PBXGroup;
+			children = (
+				558299151E9C78CA0061B2F0 /* View */,
+				5582991A1E9C79240061B2F0 /* FillInBlankViewController.swift */,
+			);
+			name = FillInBlank;
+			sourceTree = "<group>";
+		};
+		558299101E9C75EF0061B2F0 /* TrueOrFalse */ = {
+			isa = PBXGroup;
+			children = (
+				558299141E9C78C20061B2F0 /* View */,
+				558299181E9C79140061B2F0 /* TrueOrFalseViewController.swift */,
+			);
+			name = TrueOrFalse;
+			sourceTree = "<group>";
+		};
+		558299111E9C76140061B2F0 /* MultipleChoice */ = {
+			isa = PBXGroup;
+			children = (
+				558299131E9C78B60061B2F0 /* View */,
+				558299161E9C79000061B2F0 /* MultipleChoiceViewController.swift */,
+			);
+			name = MultipleChoice;
+			sourceTree = "<group>";
+		};
+		558299131E9C78B60061B2F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5582991C1E9C7FDF0061B2F0 /* MultipleChoiceView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		558299141E9C78C20061B2F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5582991E1E9C7FF10061B2F0 /* TrueOrFalseView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		558299151E9C78CA0061B2F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				558299201E9C80030061B2F0 /* FillInBlankView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		558299291E9CAFBE0061B2F0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				558299251E9CA7200061B2F0 /* UIColor+HexColor.h */,
+				558299261E9CA7200061B2F0 /* UIColor+HexColor.m */,
+				558299241E9CA7200061B2F0 /* UMQuery-Bridging-Header.h */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +313,7 @@
 					558298D71E9C6F2C0061B2F0 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3J7M454Z9P;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					558298EE1E9C6F2C0061B2F0 = {
@@ -265,9 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5582990D1E9C72830061B2F0 /* CommonPageView.swift in Sources */,
+				5582991B1E9C79240061B2F0 /* FillInBlankViewController.swift in Sources */,
 				558298DE1E9C6F2C0061B2F0 /* ViewController.swift in Sources */,
-				558298E41E9C6F2C0061B2F0 /* UMQuery.xcdatamodeld in Sources */,
+				558299191E9C79140061B2F0 /* TrueOrFalseViewController.swift in Sources */,
+				558299271E9CA7200061B2F0 /* UIColor+HexColor.m in Sources */,
+				5582991D1E9C7FDF0061B2F0 /* MultipleChoiceView.swift in Sources */,
+				559CADCA1EA4BAF100015A2B /* DemoTableViewController.swift in Sources */,
 				558298DC1E9C6F2C0061B2F0 /* AppDelegate.swift in Sources */,
+				5582991F1E9C7FF10061B2F0 /* TrueOrFalseView.swift in Sources */,
+				558299171E9C79000061B2F0 /* MultipleChoiceViewController.swift in Sources */,
+				558299211E9C80030061B2F0 /* FillInBlankView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +400,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551EA2C01EC98261009F953F /* Query+CoreDataClass.swift in Sources */,
 				558298F41E9C6F2C0061B2F0 /* UMQueryTests.swift in Sources */,
+				551EA2C11EC98261009F953F /* Query+CoreDataProperties.swift in Sources */,
+				551EA2BD1EC97EF0009F953F /* Question.xcdatamodeld in Sources */,
+				551EA2CA1EC99E14009F953F /* CoreDataObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +548,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3J7M454Z9P;
 				INFOPLIST_FILE = UMQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Umiao.UMQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMQuery/UMQuery-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -432,12 +566,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3J7M454Z9P;
 				INFOPLIST_FILE = UMQuery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Umiao.UMQuery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UMQuery/UMQuery-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -518,6 +656,7 @@
 				558299051E9C6F2C0061B2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558299061E9C6F2C0061B2F0 /* Build configuration list for PBXNativeTarget "UMQueryTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +665,7 @@
 				558299081E9C6F2C0061B2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558299091E9C6F2C0061B2F0 /* Build configuration list for PBXNativeTarget "UMQueryUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,17 +674,19 @@
 				5582990B1E9C6F2C0061B2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		558298E21E9C6F2C0061B2F0 /* UMQuery.xcdatamodeld */ = {
+		551EA2BB1EC97EF0009F953F /* Question.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				558298E31E9C6F2C0061B2F0 /* UMQuery.xcdatamodel */,
+				551EA2BC1EC97EF0009F953F /* Question.xcdatamodel */,
 			);
-			currentVersion = 558298E31E9C6F2C0061B2F0 /* UMQuery.xcdatamodel */;
-			path = UMQuery.xcdatamodeld;
+			currentVersion = 551EA2BC1EC97EF0009F953F /* Question.xcdatamodel */;
+			name = Question.xcdatamodeld;
+			path = ../UMQueryUITests/Question.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
